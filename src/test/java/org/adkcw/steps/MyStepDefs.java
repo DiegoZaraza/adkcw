@@ -14,8 +14,8 @@ import org.adkcw.utilities.PropertiesRead;
 import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.WebDriver;
 
-public class MyStepdefs {
-    private static final String PAGE = PropertiesRead.readFromFrameworkConfig("URL");
+public class MyStepDefs {
+    private static final String PAGE = "https://" + PropertiesRead.readFromFrameworkConfig("USER") + ":" + PropertiesRead.readFromFrameworkConfig("PASSWORD") + "@" + PropertiesRead.readFromFrameworkConfig("URL");
     private WebDriver webDriver;
     private SoftAssertions softAssertions;
     private Faker faker;

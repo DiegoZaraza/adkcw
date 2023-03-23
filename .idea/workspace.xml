@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="567737c0-7d33-4f40-80c0-f4afbc8557d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/adkcw/pageObject/ContactPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/adkcw/pageObject/ThankYouPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/adkcw/steps/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TestCase.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/adkcw/pageObject/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/adkcw/pageObject/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/test-report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test-report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/adkcw/steps/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/adkcw/steps/MyStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
