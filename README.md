@@ -79,9 +79,11 @@ For execute the project you must use:
 # Questions
 
 1. **Would you implement a security layer for the routine?**
+
 Yes, it is possible to implement a security layer where sensitive information such as users and passwords are encrypted for test access.
 
 2. **What raw data will be required?**
+
 For a contact form it is not necessary since it can handle information created in the same execution, although it is necessary to test fields with some specific information if it would be necessary to have it also secure so that only the methods can access it.
 
 3. **Sketch a set of test conditions and link its test cases.**
@@ -95,7 +97,9 @@ For the page it is important to validate
 * Leaving some fields empty
 
 4. **Does Selenium allow you to check the API call when clicking the “submit” contact form button.**
+
 It is quite a complex issue to handle from selenium since it is designed for UI interaction, maybe linking it with other frameworks could validate these calls.
 
 5. **Is there a way to avoid manually entering the basic auth credentials?**
+
 If by adding them with the url in this format it can be done ```http://username:password@example.com```
