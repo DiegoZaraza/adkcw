@@ -2,8 +2,10 @@ package org.adkcw.pageObject;
 
 import org.adkcw.utilities.PropertiesRead;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -31,8 +33,8 @@ public class BasePage {
 
     public void click(WebElement e, String msg) {
         log.info(msg);
-        waitForVisibility(e);
-        e.click();
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        executor.executeScript("arguments[0].click();", e);
     }
 
     public String findObject(List<WebElement> e, String msg) {
@@ -63,5 +65,10 @@ public class BasePage {
 
     public boolean isDisplayed(WebElement e, String msg) {
         return e.isDisplayed();
+    }
+
+    public static void scrollDown(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,250)", "");
     }
 }
