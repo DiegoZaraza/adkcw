@@ -88,17 +88,24 @@ For a contact form it is not necessary since it can handle information created i
 
 3. **Sketch a set of test conditions and link its test cases.**
 
-For the page it is important to validate
 
-* Length of the fields 
-* Test by entering wrong emails 
-* Test entering numbers in the text fields 
-* Test with letters in the phone number field 
-* Leaving some fields empty
+For the page it is important to validate 
+* Verify that all required form fields are present and labeled correctly
+
+**Test case 1:** Verify that the name, email, and message fields are present and labeled correctly 
+
+* Verify that the form input is validated to prevent invalid input
+
+**Test case 2:** Verify that an error message is displayed when a user submits an empty form
+**Test case 3:** Verify that an error message is displayed when an invalid email address is entered 
+* Verify that the form submission is successful
+
+**Test case 4:** Verify that a success message is displayed when the form is submitted successfully
+
 
 4. **Does Selenium allow you to check the API call when clicking the “submit” contact form button.**
 
-It is quite a complex issue to handle from selenium since it is designed for UI interaction, maybe linking it with other frameworks could validate these calls.
+It is quite a complex issue to handle from selenium since it is designed for UI interaction, However, you can use tools such as browser plugins or network monitoring tools to inspect the API call.
 
 5. **Is there a way to avoid manually entering the basic auth credentials?**
 
