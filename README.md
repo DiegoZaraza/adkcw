@@ -62,11 +62,11 @@ Git:
 
     Whit SSH
     git clone git@github.com:DiegoZaraza/adkcw.git
-    cd BlankFactor
+    cd adkcw
     
     With HTTPS
     git clone git@github.com:DiegoZaraza/adkcw.git
-    cd BlankFactor
+    cd adkcw
     
 Or simply [download a zip](https://github.com/DiegoZaraza/adkcw/archive/refs/heads/main.zip) file
 
